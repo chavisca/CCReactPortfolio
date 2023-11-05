@@ -3,12 +3,14 @@ import { Link, useLocation } from 'react-router-dom';
 function navbar() {
   const currentPage = useLocation().pathname;
 
+  const activeLinkClass = 'text-blue-500';
+
   return (
     <ul className="flex flex-wrap gap-2 flex-row items-center justify-center text-sm md: text-md">
       <li className="nav-item">
         <Link
           to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/' ? `nav-link ${activeLinkClass}` : 'nav-link'}
         >
           Home
         </Link>
@@ -16,7 +18,7 @@ function navbar() {
       <li className="nav-item">
         <Link
           to="/About"
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/About' ? `nav-link ${activeLinkClass}` : 'nav-link'}
         >
           About
         </Link>
@@ -24,7 +26,7 @@ function navbar() {
       <li className="nav-item">
         <Link
           to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Portfolio' ? `nav-link ${activeLinkClass}` : 'nav-link'}
         >
           Portfolio
         </Link>
@@ -32,7 +34,7 @@ function navbar() {
       <li className="nav-item">
         <Link
           to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Contact' ? `nav-link ${activeLinkClass}` : 'nav-link'}
         >
           Contact
         </Link>
@@ -40,7 +42,7 @@ function navbar() {
       <li className="nav-item">
         <Link
           to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Resume' ? `nav-link ${activeLinkClass}` : 'nav-link'}
         >
           Resume
         </Link>
