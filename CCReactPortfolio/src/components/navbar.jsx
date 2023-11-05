@@ -26,7 +26,7 @@ function navbar() {
           to="/Portfolio"
           className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Portfolio
         </Link>
       </li>
       <li className="nav-item">

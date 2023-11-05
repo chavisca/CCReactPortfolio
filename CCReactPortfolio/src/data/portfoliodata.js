@@ -1,7 +1,7 @@
 export default [
     {
         title: 'Express Note Taker',
-        imgUrl: 'https://github.com/chavisca/CC-Express-Note-Taker/blob/main/assets/images/screenshot.JPG',
+        imgUrl: 'https://github.com/chavisca/CC-Express-Note-Taker/raw/main/assets/images/screenshot.JPG',
         stack: ['Express', 'UUID', 'JavaScript'],
         link: 'https://young-cliffs-30558-dc86673f9f23.herokuapp.com/',
         github: 'https://github.com/chavisca/CC-Express-Note-Taker',

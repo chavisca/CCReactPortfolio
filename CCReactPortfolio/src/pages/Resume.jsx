@@ -4,7 +4,7 @@ export default function Resume() {
             <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold">My Resume</h1>
             <p className="text-base md:text-xl mb-3 font-medium">Web Developer in Training</p>
             <p className="text-sm max-w-xl mb-6 font-light">I have had (albeit limited) experience of exposure with the following languages, libraries, ORMs, ODBs, or applications:</p>
-                <ul>
+                <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
@@ -22,6 +22,7 @@ export default function Resume() {
                     <li>DayJS</li>
                     <li>Handlebars</li>
                     <li>Apollo</li>
+                    <li>JQuery</li>
                 </ul>
         </div>
     )
