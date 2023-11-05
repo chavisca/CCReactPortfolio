@@ -1,9 +1,9 @@
-import React from 'react';
-
-function footer() {
+export default function footer() {
     return (
-        <div></div>
+        <div className="py-5 text-center">
+            <p className="text-sm mt-2 opacity-50">
+                &ccopy;a {new Date().getFullYear()} Charles Chavis.  All rights reserved.
+            </p>
+        </div>
     )
 }
-
-export default footer;
