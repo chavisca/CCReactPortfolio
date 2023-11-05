@@ -3,30 +3,23 @@ import { Link, useLocation } from 'react-router-dom';
 function navbar() {
   const currentPage = useLocation().pathname;
 
-  const activeLinkClass = 'text-blue-500';
+  const normalLinkClass = 'text-blue-500';
+  const hoverLinkClass = 'hover: underline hover: text-red-500';
 
   return (
-    <ul className="flex flex-wrap gap-2 flex-row items-center justify-center text-sm md: text-md">
-      <li className="nav-item">
+    <ul className="flex flex-wrap gap-2 flex-row items-center justify-center text-md md: text-md">
+      <li className="nav-item hover:">
         <Link
           to="/"
-          className={currentPage === '/' ? `nav-link ${activeLinkClass}` : 'nav-link'}
+          className={currentPage === '/' ? `nav-link ${normalLinkClass} ${hoverLinkClass}` : `nav-link ${normalLinkClass} ${hoverLinkClass}`}
         >
-          Home
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/About"
-          className={currentPage === '/About' ? `nav-link ${activeLinkClass}` : 'nav-link'}
-        >
-          About
+          About Me
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/Portfolio"
-          className={currentPage === '/Portfolio' ? `nav-link ${activeLinkClass}` : 'nav-link'}
+          className={currentPage === '/Portfolio' ? `nav-link ${normalLinkClass} ${hoverLinkClass}` : `nav-link ${normalLinkClass} ${hoverLinkClass}`}
         >
           Portfolio
         </Link>
@@ -34,7 +27,7 @@ function navbar() {
       <li className="nav-item">
         <Link
           to="/Contact"
-          className={currentPage === '/Contact' ? `nav-link ${activeLinkClass}` : 'nav-link'}
+          className={currentPage === '/Contact' ? `nav-link ${normalLinkClass} ${hoverLinkClass}` : `nav-link ${normalLinkClass} ${hoverLinkClass}`}
         >
           Contact
         </Link>
@@ -42,7 +35,7 @@ function navbar() {
       <li className="nav-item">
         <Link
           to="/Resume"
-          className={currentPage === '/Resume' ? `nav-link ${activeLinkClass}` : 'nav-link'}
+          className={currentPage === '/Resume' ? `nav-link ${normalLinkClass} ${hoverLinkClass}` : `nav-link ${normalLinkClass} ${hoverLinkClass}`}
         >
           Resume
         </Link>
