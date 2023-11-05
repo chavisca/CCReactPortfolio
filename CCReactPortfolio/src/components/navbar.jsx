@@ -4,7 +4,7 @@ function navbar() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav navbar">
+    <ul className="flex flex-wrap gap-2 flex-row items-center justify-center text-sm md: text-md">
       <li className="nav-item">
         <Link
           to="/"

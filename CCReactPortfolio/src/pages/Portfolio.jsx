@@ -1,4 +1,4 @@
-import PortfolioData from '../data/portfolio';
+import PortfolioData from '../data/portfoliodata.js';
 import Portfolioitem from './Portfolioitem';
 
 export default function Portfolio() {
@@ -11,6 +11,7 @@ export default function Portfolio() {
                     title={project.title}
                     stack={project.stack}
                     link={project.link}
+                    github={project.github}
                     />
                 ))}
             </div>

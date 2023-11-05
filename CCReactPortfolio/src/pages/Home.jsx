@@ -1,10 +1,8 @@
 export default function Home() {
     return (
       <div>
-        <h1>Home Page</h1>
-        <p>
-          Something needs to go here at some point.
-        </p>
+        <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold">Welcome to my landing page!</h1>
+            <p className="text-sm max-w-xl mb-6 font-light">I'm a fledgling web developer that is going to make this site something to be proud of'.  It will grow with each and every project I put together to showcase my skills and one day be an impressive testament to everything I've learned.</p>
       </div>
     );
   }

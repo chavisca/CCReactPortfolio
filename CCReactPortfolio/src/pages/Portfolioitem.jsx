@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Portfolioitem({ title, imgUrl, stack, link }) {
+function Portfolioitem({ title, imgUrl, stack, link, github }) {
     return (
         <div className="border-2 border-stone-900 rounded-md overflow-hidden">
             <img
