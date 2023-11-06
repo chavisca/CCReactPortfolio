@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 export default function Contact() {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
@@ -49,15 +51,15 @@ export default function Contact() {
         }
     };
 
-    const handleSubmit = () => {
-        if (
-            emailErrorMessage === '' &&
-            nameErrorMessage === '' &&
-            messageErrorMessage === '' 
-        ) {
+    // const handleSubmit = () => {
+    //     if (
+    //         emailErrorMessage === '' &&
+    //         nameErrorMessage === '' &&
+    //         messageErrorMessage === '' 
+    //     ) {
 
-        }
-    };
+    //     }
+    // };
 
     return (
         <div className="flex flex-col mb-10 mx-auto">
@@ -96,11 +98,10 @@ export default function Contact() {
                         onBlur={handleMessageChange}
                         className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
                     />
-                    <br></br><br></br>
                     {messageErrorMessage && <p className="text-red-500">{messageErrorMessage}</p>}
                     <button
                         type="button" 
-                        onClick={handleSubmit}
+                        // onClick={handleSubmit}
                         className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-500 to-yellow-500 drop-shadow-md hover:stroke-white"
                     >
                         Contact Me
