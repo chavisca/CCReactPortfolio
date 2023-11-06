@@ -7,7 +7,7 @@ function navbar() {
   const hoverLinkClass = 'hover: underline hover: text-red-500';
 
   return (
-    <ul className="flex flex-wrap gap-2 flex-row items-center justify-center text-md md: text-md">
+    <ul className="flex flex-wrap gap-2 flex-row items-center justify-right text-4xl md:text-7xl mb-1 md:mb-3 font-light text-right">
       <li className="nav-item hover:">
         <Link
           to="/"
