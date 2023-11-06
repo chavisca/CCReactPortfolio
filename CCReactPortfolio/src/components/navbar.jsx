@@ -7,8 +7,8 @@ function navbar() {
   const hoverLinkClass = 'hover: underline hover: text-red-500';
 
   return (
-    <ul className="flex flex-wrap gap-2 flex-row items-center justify-right text-4xl md:text-7xl mb-1 md:mb-3 font-light text-right">
-      <li className="nav-item hover:">
+    <ul className="flex flex-wrap gap-6 flex-row justify-self-end text-2xl md:text-4xl mb-1 md:mb-3 font-light">
+      <li className="nav-item">
         <Link
           to="/"
           className={currentPage === '/' ? `nav-link ${normalLinkClass} ${hoverLinkClass}` : `nav-link ${normalLinkClass} ${hoverLinkClass}`}

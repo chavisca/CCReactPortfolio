@@ -1,7 +1,7 @@
 export default function footer() {
     return (
         <div className="py-5 text-center">
-            <div className="flex flex-row gap-2 items-center justify-center">
+            <div className="flex flex-row gap-10 items-center justify-center">
                 <img src="assets/GitHub-Mark.png" alt="github"
                 className="w-12 h-12 md:h-16 object-scale-down cursor-pointer"/>
                 <img src="assets/linkedin.png" alt="linkedin"
