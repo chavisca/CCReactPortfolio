@@ -63,7 +63,10 @@ export default function Contact() {
 
     return (
         <div className="flex flex-col mb-10 mx-auto mt-10">
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center flex-col">
+                <div className="text-center">
+            <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold font-edutas">Contact Me</h1>
+                </div>
                 <form 
                 action="https://getform.io/slug"
                 method="POST"
@@ -102,7 +105,7 @@ export default function Contact() {
                     <button
                         type="button" 
                         // onClick={handleSubmit}
-                        className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-500 to-yellow-500 drop-shadow-md hover:stroke-white"
+                        className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gray drop-shadow-md hover:stroke-white"
                     >
                         Contact Me
                     </button>

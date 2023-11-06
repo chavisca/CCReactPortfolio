@@ -30,7 +30,7 @@ export default function Resume() {
                     <li>Apollo</li>
                     <li>JQuery</li>
                 </ul>
-                <button className="text-center inline-block px-8 py-3 mt-6 w-max text-base font-medium rounded-md text-white bg-green-500 drop-shadow-md hover:stroke-white">
+                <button className="text-center inline-block px-8 py-3 mt-6 w-max text-base font-medium rounded-md text-white bg-gray drop-shadow-md hover:stroke-white">
                     <a className="button" href="../assets/ResumeOfficial.pdf" download = "ResumeOfficial.pdf">Download Resume</a>
                 </button>
         </div>
