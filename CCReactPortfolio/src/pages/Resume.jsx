@@ -29,9 +29,9 @@ export default function Resume() {
                     <li>Handlebars</li>
                     <li>Apollo</li>
                     <li>JQuery</li>
-                </ul><br><br></br></br>
-                <button className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-green-500 drop-shadow-md hover:stroke-white">
-                    <a className="button" href="../assets/Resume/ResumeOfficial.pdf" download = "ResumeOfficial.pdf">Download Resume</a>
+                </ul>
+                <button className="text-center inline-block px-8 py-3 mt-6 w-max text-base font-medium rounded-md text-white bg-green-500 drop-shadow-md hover:stroke-white">
+                    <a className="button" href="../assets/ResumeOfficial.pdf" download = "ResumeOfficial.pdf">Download Resume</a>
                 </button>
         </div>
     )
