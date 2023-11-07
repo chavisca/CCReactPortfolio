@@ -20,4 +20,4 @@ https://github.com/chavisca/CCReactPortfolio
 
 ## Screenshot
 
-![Screenshot_of_the_Express_Note_Taker](/assets/images/Screenshot.JPG)
+![Screenshot_of_the_CCReactPortfolio](/assets/images/Screenshot.JPG)
