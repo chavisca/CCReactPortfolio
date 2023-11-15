@@ -1,5 +1,12 @@
 export default [
     {
+        title: 'MERN Recipe Appetyzer',
+        imgUrl: 'https://github.com/chavisca/CC-APPetyzer/raw/main/assets/images/screenshot.jpg',
+        stack: ['React', 'MongoDB', 'Node.JS', 'Express.JS',],
+        link: 'https://appetyzer-a23045d116f7.herokuapp.com/',
+        github: 'https://github.com/chavisca/CC-APPetyzer',
+    },
+    {
         title: 'Express Note Taker',
         imgUrl: 'https://github.com/chavisca/CC-Express-Note-Taker/raw/main/assets/images/screenshot.JPG',
         stack: ['Express', 'UUID', 'JavaScript'],
